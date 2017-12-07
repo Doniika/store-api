@@ -1,2 +1,2 @@
 # store-api
-A simple store scaffolding API with expressjs and mongodb
+Boilerplate for building simple API with Expressjs and MongoDB
