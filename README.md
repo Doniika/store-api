@@ -1,2 +1,9 @@
-# store-api
+# Store API with Expressjs and MongoDB
 Boilerplate for building simple API with Expressjs and MongoDB
+
+## How to install in local
+* cd Desktop
+* git clone https://github.com/arianithetemi/store-api.git
+* cd store-api
+* npm install
+* npm start (or nodemon)
