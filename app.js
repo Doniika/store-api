@@ -31,12 +31,12 @@ app.get('/', function(req, res, next) {
 
 /* GET ALL PRODUCTS */
 app.get('/products', function(req, res) {
-   // Code for handling data to be returned as JSON
+   // Code for handling products(data) to be returned as JSON
 });
 
-/* SAVE PRODUCT */
+/* CREATE PRODUCT */
 app.post('/products', function(req, res) {
-   // Code for handling save product to DB and return as JSON
+   // Code for handling create product to DB and return as JSON
 });
 
 /* GET PRODUCT */
@@ -45,7 +45,7 @@ app.get('/products/:id', function(req, res) {
 });
 
 /* UPDATE PRODUCT */
-app.put('products/update/:id', function(req, res) {
+app.put('/products/update/:id', function(req, res) {
    // Code for updating one specific product and return as JSON
 });
 
